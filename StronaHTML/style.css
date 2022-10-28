@@ -1,0 +1,155 @@
+.sheet {
+    width: 595px;
+    height: 842px;
+    background-color: rgb(220, 220, 220);
+    font-family: system-ui;
+}    
+.clause {
+    margin-top: 5%;
+    text-align: center;
+    font-size: x-small;
+    letter-spacing: 0.5px;
+}
+.header {
+    width: 100%;
+    height: 20%;
+}
+.headerName {
+    width: 35%;
+    height: 100%;
+    float: left;
+}
+.headerNameWrapper {
+    margin: 17.5% 5% 0 0%;
+}
+.name {
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 175%;
+    margin: 0;
+    margin-left: 10%;
+}
+.socialSection {
+    margin-left: 10%;
+}
+.socialSection img {
+    width: 12%;
+    height: 12%;
+    float: left;
+    margin-top: 3%;
+}
+.social {
+    margin-top: 5%;
+    margin-left: 3%;
+    font-size: 75%;
+    float: left;
+}
+.headerPhoto {
+    width: 30%;
+    height: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+.headerPhoto img {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    border-radius: 100%;
+}
+.headerContact {
+    width: 35%;
+    height: 100%;
+    float: left;
+}
+.headerContactWrapper {
+    margin-top: 7.5%;
+}
+.headerContact p {
+    font-size: 70%;
+    margin-top: 1%;
+    margin-bottom: 0;
+}
+.contactHeader {
+    font-weight: bold;
+    margin-left: 5%;
+}
+.contactInfo {
+    margin-left: 10%;
+}
+.sectionsWrapper {
+    height: 80%;
+}
+.section {
+    width: 100%;
+    height: auto;
+    margin: 0 auto 1% auto;
+}
+.sectionTitle {
+    width: 95%;
+    background-color: rgb(192, 192, 192);
+    text-align: center;
+    margin: auto;
+    border-top: 2px solid rgb(100, 100, 100);
+    border-bottom: 2px solid rgb(100, 100, 100);
+}
+.sectionTitle p {
+    font-weight: bold;
+    margin: 0;
+}
+.sectionContent {
+    width: 95%;
+    height: auto;
+    min-height: 35px;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.sectionContent p {
+    font-size: 80%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    line-height: 120%;
+    margin: 0;
+}
+.workExperience p {
+    margin: 0;
+}
+.jobDescriptionColumn, .personalScopeColumn {
+    width: 60%;
+}
+.workTimeColumn, .skillsLabelColumn {
+    width: 15%;
+    vertical-align: top;
+}
+.companyName {
+    font-weight: bold;
+}
+.companyPosition {
+    font-style: italic;
+    text-decoration: underline;
+}
+.personalScope {
+    text-align: right;
+}
+.skillsTable, .skillsMeterTable {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 30%;
+}
+.skillsTable p {
+    margin: 2% 0 0 0;
+}
+.skillsMeterTable {
+    table-layout: fixed;
+}
+.skillsMeterScale img {
+    width: 15%;
+}
+.skillsMeterLabel {
+    font-size: 80%;
+    text-align: right;
+    padding-right: 5%;
+    font-weight: bold;
+}

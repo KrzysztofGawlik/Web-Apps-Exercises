@@ -1,0 +1,42 @@
+table.tableAutoFit{
+    width: auto;
+}
+table.tableAutoFit td {
+    padding-left: 5px;
+    padding-right: 20px;
+}
+table.customFiltersTable {
+    border: none;
+    width: 50%;
+}
+table.customFiltersTable select {
+    width: 250px;
+}
+table.customFiltersTable tr {
+    border: none;
+}
+table.customFiltersTable td {
+    padding-bottom: 10px;
+    border: none;
+}
+#menuTable td{
+    border: 0px solid black;
+    width: 10%;
+    text-align: center;
+}
+#menuTable tr{
+    border: 0px solid black;
+}
+#menuTable {
+    border: 0px solid black;
+}
+table, th {
+    border: 2px solid black;
+}
+tr, td {
+    border: 1px solid black;
+}
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
